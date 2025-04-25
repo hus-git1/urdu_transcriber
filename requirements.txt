@@ -1,0 +1,6 @@
+streamlit==1.18.0
+fastapi==0.95.1
+uvicorn==0.21.1
+groq==0.1.0
+python-multipart==0.0.5
+pydub==0.25.1  # for audio file manipulation if needed
