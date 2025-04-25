@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 # Initialize the Groq client
-client = Groq(api_key='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')
+client = Groq(api_key=os.get_env("API_KEY"))
 
 # Streamlit app setup
 st.title("Live Audio Transcription Service")
